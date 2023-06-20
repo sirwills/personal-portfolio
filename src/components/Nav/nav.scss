@@ -1,0 +1,45 @@
+nav
+{
+    flex: 0.1;
+    // background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    .navigations
+    {
+       
+        // border-radius: 12px;
+
+        
+
+        ul 
+        {
+
+            background-color: rgba(233, 229, 229, 0.829);
+                height: fit-content;
+                width: 50px;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            li 
+            {
+                padding: 10px;
+                list-style: none;
+
+                &hover::after{
+                    display: keywords($args: home);
+                }
+            }
+        }
+
+        
+    }
+    
+}

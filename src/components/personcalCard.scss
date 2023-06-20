@@ -1,0 +1,82 @@
+
+.personal-card{
+    flex: 0.2;
+    // align-items: center;
+    margin-top: 10vh;
+    justify-content: center; 
+    display: flex;   
+    height: 80vh;
+    justify-content: center;
+    border: 1px solid green;
+    border-radius: 12px;
+    position: relative;
+    background-color: #96C6D9;
+    align-items: center;
+    // padding: ;
+    .personalCard-wrapper 
+    {
+
+        position: relative;
+        margin: 20px;
+        
+        object-fit: contain;
+        justify-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .name-workTitle 
+
+        {
+            display: flex;
+            justify-content: space-between;
+            .my-name
+            {
+                font-size: 1.7rem;
+                font-family: 'Bebas Neue', sans-serif;
+                font-weight: bold;
+                color: black;
+            }
+
+            .workTitle
+            {
+                font-size: 12px;
+                font-weight: bold;
+                // font-family: 'Bebas Neue', sans-serif;
+            }
+
+        }
+
+        img 
+        {
+            width: 100%;
+            border-radius: 12px;
+            // position: absolute;
+        }  
+        
+        .my-details
+        {
+            
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .rights{
+            color: white;
+                text-align: center;
+                font-size: 10px;
+                color: grey;
+        }
+
+        
+    
+
+        
+    }
+}

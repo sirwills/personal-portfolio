@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,140 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Keyframe */
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX('-10deg');
+
+  }
+  to{
+opacity: 1;
+  transform: rotateX('0');
+  }
+}
+
+/* Home Page styling */
+
+.home 
+{
+  flex: 0.7;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: transitionIn 2.5s;
+   
+}
+
+.home .home-content
+{
+  position: relative;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:  0 20px 0 60px;
+}
+
+  .greeting
+  {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+   
+  }
+
+  .home .mission 
+  {
+    color: white;
+    font-size: 50px;
+  }
+  
+
+
+
+/* Main section styling */
+/* .main-section {
+  
+  flex: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Navigation section */
+
+/*  */
+.layout
+{
+  background-image: url(/public/bg-image.avif);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: 0 20px 0 40px ;
+  justify-content: space-around;
+}
+
+/* conctact page */
+.contactPage
+{
+  flex: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Component */
+
+.about
+{
+flex: 0.7;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: transitionIn 2.5s;
+}
+
+.about .container
+{
+position: relative;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px 0 60px;
+  color: white;
+}
+
+.about .container p
+{
+  font-size: 18px;
+}
+
+/* Portfolio Page */
+
+.portfolio
+{
+  flex: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stacks Component */
+
+.stacks
+{
+  flex: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
