@@ -6,9 +6,9 @@ const StackCard = ({ image, percentage, title }) => {
     <div className="wrapper m-4">
       <div className="card">
         <img src={image} alt="" className="image" />
-        <p className="text-white">{title}</p>
+        <p className="text-success fw-bold fs-5">{title}</p>
 
-        <span>{percentage}</span>
+        <span className="text-success">{percentage}</span>
       </div>
     </div>
   );

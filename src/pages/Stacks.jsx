@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 const Stacks = () => {
   return (
     <div className="stacks">
-      <h1 className="text-center text-white"> My Stack</h1>
+      <h1 className="text-center text-success"> My Stack</h1>
 
       <div className="container">
         <StackCard

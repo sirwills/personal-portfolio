@@ -34,28 +34,35 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendMail} className="contact-form">
           <div className="details-field">
-            <label htmlFor="fullname">Full Name</label>
-            <input type="text" name="full-name" />
+            <input
+              type="text"
+              name="full-name"
+              placeholder="Fullname"
+              className="my-2"
+            />
           </div>
 
           <div className="details-field">
-            <label htmlFor="email">Email</label>
-            <input type="email" name="user_email" />
+            <input type="email" name="user_email" placeholder="Email Address" />
           </div>
 
           <div className="details-field">
-            <label htmlFor="phone-number">Phone number</label>
-            <input type="number" name="phone-number" />
+            <input
+              type="text"
+              name="phone-number"
+              placeholder="Phone Number"
+              className="my-2"
+            />
           </div>
 
           <div className="details-field">
-            <label htmlFor="message">How can i help</label>
             <textarea
-              className="message-box"
+              className="message-box p-3"
               name="message"
               id=""
               cols="30"
               rows="5"
+              placeholder="Please enter your message here"
             ></textarea>
           </div>
 

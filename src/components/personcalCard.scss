@@ -2,17 +2,17 @@
 .personal-card{
     flex: 0.2;
     // align-items: center;
-    margin-top: 10vh;
+    margin-top: 40px;
     justify-content: center; 
     display: flex;   
-    height: 80vh;
+    height: 90vh;
     justify-content: center;
-    border: 1px solid green;
+    border: 1px solid #bdbd2b;
     border-radius: 12px;
     position: relative;
-    background-color: #96C6D9;
+    background-color: #ddb01e;
     align-items: center;
-    position: relative;
+    
     // padding: ;
 
     /* Styles for screens larger than 1200px */
@@ -53,10 +53,8 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        @media (max-width: 575px) {
-                /* Add your styles here */
-                margin: 0;
-            }
+
+        
         
 
         .name-workTitle
@@ -114,7 +112,10 @@
                 color: grey;
         }
 
-        
+        .btn-color{
+            background-color: rgb(66, 66, 225);
+            color: white;
+        }
     
 
         

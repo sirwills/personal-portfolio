@@ -2,8 +2,11 @@ import React from "react";
 import "../components/personcalCard.css";
 // import { Link } from "react-router-dom";
 import { FaEnvelope } from "react-icons/fa";
+import myImage from "./OWP_0525.jpg";
+import { Link } from "react-router-dom";
 
 const PersonalCard = () => {
+  const image = myImage;
   return (
     <div className="personal-card">
       <div className="personalCard-wrapper">
@@ -11,17 +14,23 @@ const PersonalCard = () => {
           <p className="my-name">Wills Odali</p>
           <p className="workTitle">Fullstack Developer</p>
         </div>
-        <img
-          src="https://images.pexels.com/photos/15940872/pexels-photo-15940872/free-photo-of-kitten-standing-atop-wall-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-          alt=""
-        />
+        <img src={image} alt="" />
         <div className="my-details">
-          <a href="linkdedin">
-            <i className="fa-brands fa-linkedin "></i>
-          </a>
-          <a href="linkdedin" className="mx-3">
+          <Link
+            className="mx-2"
+            to={"https://github.com/sirwills"}
+            target="_blank"
+          >
+            {" "}
             <i className="fa-brands fa-github "></i>
-          </a>
+          </Link>
+          <Link
+            to={"https://www.linkedin.com/in/wills-odali-b2021b265/"}
+            target="_blank"
+          >
+            {" "}
+            <i className="fa-brands fa-linkedin "></i>
+          </Link>
           <p>Lagos, Nigeria</p>
         </div>
 
@@ -29,12 +38,12 @@ const PersonalCard = () => {
           <p>Wills 2023. All right reserved</p>
         </div>
 
-        <div></div>
-
-        <button className="btn btn-success rounded-pill ">
-          <FaEnvelope className="mx-2" />
-          HIRE ME!
-        </button>
+        <Link to={"/contact"} className="w-100">
+          <button className="btn btn-color rounded-pill w-100 ">
+            <FaEnvelope className="mx-2" />
+            HIRE ME!
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -5,14 +5,14 @@ const About = () => {
     <div className="about">
       <div className="container">
         <p>
-          Welcome! I'm [Your Name], a results-driven full-stack developer with a
+          Welcome! I'm Wills Odali, a results-driven full-stack developer with a
           passion for creating innovative web solutions. I excel in crafting
-          captivating user interfaces, architecting robust back-end systems, and
-          delivering exceptional results. <br /> With expertise in front-end
-          languages like HTML5, CSS3, and JavaScript, as well as back-end
-          frameworks like Node.js and Django, I possess a versatile skill set. I
-          thrive on challenges, constantly learning and adapting to the latest
-          technologies and industry trends.
+          simpple and user firendly interfaces, architecting good back-end
+          systems, and delivering exceptional results. <br /> With expertise in
+          front-end languages like HTML5, CSS3, and JavaScript, as well as
+          back-end frameworks like Node.js and Express.js, I possess a versatile
+          skill set. I thrive on challenges, constantly learning and adapting to
+          the latest technologies and industry trends.
           <br />
           Collaboration is essential to my approach. By actively engaging with
           clients and working alongside talented professionals, I ensure a
@@ -26,9 +26,8 @@ const About = () => {
         </p>
 
         <p>
-          Let's connect and discuss how we can collaborate on your web
-          development aspirations. Together, we can create extraordinary digital
-          experiences.
+          I'm open to work and collaborations. Together, we can create
+          extraordinary digital experiences.
         </p>
       </div>
     </div>

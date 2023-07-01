@@ -55,14 +55,16 @@ opacity: 1;
   .greeting
   {
     font-size: 30px;
-    color: white;
+    /* color: white; */
+      color: rgb(69, 69, 100);
     font-weight: 600;
    
   }
 
   .home .mission 
   {
-    color: white;
+    /* color: white; */
+      color: rgb(69, 69, 100);
     font-size: 50px;
   }
 
@@ -106,7 +108,8 @@ opacity: 1;
 
 .layout
 {
-  background-image: url(/public/bg-image.avif);
+  /* background-image: url(/public/bg-image.avif); */
+  background-image: url('../public/gebg.jpg');
   background-size:cover;
   width: 100vw;
   height: 100vh;
@@ -148,14 +151,14 @@ opacity: 1;
     align-items: center;
     
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; 
     margin: 0 20px 0 60px;
 }
 
 .contact-form-heading
 {
   font-size: 36px;
-  color: #EDF2C9;
+  color: black;
   text-align: center;
   
 }
@@ -167,6 +170,10 @@ opacity: 1;
   width: 100%;
   height: fit-content;
   align-items: center;
+}
+.contactPage .contact-content .contact-form label{
+  color: black;
+  font-weight: 600;
 }
 
 .contactPage .contact-content .contact-form input
@@ -203,7 +210,7 @@ opacity: 1;
   outline: none;
   border: none;
   margin-top: 5px;
-  background-color: #AED3F2;
+  background-color: rgb(66, 66, 225);
   width: 400px;
 }
 
@@ -258,6 +265,9 @@ flex: 0.7;
 .about .container p
 {
   font-size: 18px;
+  /* color: rgb(66, 66, 225) ; */
+  color: black;
+  font-weight: 600;
 }
 
 @media (max-width: 575px) {
