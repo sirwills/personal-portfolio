@@ -4,6 +4,14 @@ nav {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 575px) {
+  nav {
+    /* Add your styles here */
+    flex: 0.1;
+    justify-content: center;
+    position: sticky;
+  }
+}
 nav .navigations ul {
   background-color: rgba(233, 229, 229, 0.829);
   height: -moz-fit-content;

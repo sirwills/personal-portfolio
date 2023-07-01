@@ -5,6 +5,14 @@ nav
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 575px) {
+    
+            /* Add your styles here */
+            flex: 0.1;
+            justify-content: center;
+            position:sticky;
+        }
+    
     
     
     .navigations
@@ -33,13 +41,14 @@ nav
                 padding: 10px;
                 list-style: none;
 
-                &hover::after{
-                    display: keywords($args: home);
-                }
+                // &hover::after{
+                //     display: keywords($args: home);
+                // }
             }
         }
 
         
     }
+    
     
 }

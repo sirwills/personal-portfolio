@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Route, Routes } from 'react-router-dom'
+import {  Route, Routes, BrowserRouter } from 'react-router-dom'
 
 import PersonalCard from './components/PersonalCard'
 import Nav from './components/Nav/Nav'
@@ -13,9 +13,12 @@ import Home from './pages/Home'
 
 const App = () => {
   return (
+    <BrowserRouter>
 
   <div className='layout'>
+    
     <PersonalCard/>
+    
 
       <Routes>
         <Route path='/' element = {<Home/>}/>
@@ -29,7 +32,9 @@ const App = () => {
       </Routes>
 
       <Nav/>
+      
   </div>
+  </BrowserRouter>
 
     
     

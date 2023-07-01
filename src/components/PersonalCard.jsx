@@ -8,9 +8,7 @@ const PersonalCard = () => {
     <div className="personal-card">
       <div className="personalCard-wrapper">
         <div className="name-workTitle">
-          <div>
-            <p className="my-name">Wills</p>
-          </div>
+          <p className="my-name">Wills Odali</p>
           <p className="workTitle">Fullstack Developer</p>
         </div>
         <img

@@ -10,30 +10,71 @@
   position: relative;
   background-color: #96C6D9;
   align-items: center;
+  position: relative;
+  /* Styles for screens larger than 1200px */
+  /* Styles for screens between 992px and 1199px */
+  /* Styles for screens between 768px and 991px */
+  /* Styles for screens between 576px and 767px */
+  /* Styles for screens smaller than 576px */
+}
+@media (min-width: 1200px) {
+  .personal-card {
+    /* Add your styles here */
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .personal-card {
+    /* Add your styles here */
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .personal-card {
+    /* Add your styles here */
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .personal-card {
+    /* Add your styles here */
+  }
+}
+@media (max-width: 575px) {
+  .personal-card {
+    /* Add your styles here */
+    display: none;
+    margin: 0;
+  }
 }
 .personal-card .personalCard-wrapper {
-  position: relative;
+  position: absolute;
   margin: 20px;
-  -o-object-fit: contain;
-     object-fit: contain;
   justify-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+@media (max-width: 575px) {
+  .personal-card .personalCard-wrapper {
+    /* Add your styles here */
+    margin: 0;
+  }
+}
 .personal-card .personalCard-wrapper .name-workTitle {
-  display: flex;
-  justify-content: space-between;
+  gap: none;
+  line-height: 5px;
 }
 .personal-card .personalCard-wrapper .name-workTitle .my-name {
   font-size: 1.7rem;
   font-family: "Bebas Neue", sans-serif;
   font-weight: bold;
   color: black;
+  letter-spacing: 3px;
+  word-spacing: 5px;
 }
 .personal-card .personalCard-wrapper .name-workTitle .workTitle {
   font-size: 12px;
   font-weight: bold;
+  letter-spacing: 3px;
+  word-spacing: 5px;
 }
 .personal-card .personalCard-wrapper img {
   width: 100%;
