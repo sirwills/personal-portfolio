@@ -12,30 +12,30 @@ const Stacks = () => {
         <StackCard
           image={"./mongodb-png.webp"}
           title={"MongoDb"}
-          percentage="60%"
+          
         />
         <StackCard
           image={"./express-js.png"}
           title={"Express Js"}
-          percentage={"70%"}
+          p
         />
         <StackCard
           image={"./reacct.png"}
           title={"React Js"}
-          percentage={"90%"}
+          
         />{" "}
       </div>
       <div className="container ">
         <StackCard
           image={"./node-js.png"}
           title={"Node Js"}
-          percentage={"70%"}
+          
         />{" "}
-        <StackCard image={"./css33.png"} title={"CSS"} percentage={"70%"} />
+        <StackCard image={"./css33.png"} title={"CSS"}  />
         <StackCard
           image={"./bootstrap.svg.png"}
           title={"Bootsrap"}
-          percentage={"80%"}
+          
         />{" "}
       </div>
     </div>

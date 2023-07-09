@@ -26,7 +26,7 @@ const About = () => {
         </p>
 
         <p>
-          I'm open to work and collaborations. Together, we can create
+          I'm open to work. Together, we can create
           extraordinary digital experiences.
         </p>
       </div>

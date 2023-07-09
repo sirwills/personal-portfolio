@@ -46,4 +46,45 @@
         }
         
     }
-}
+    @media (max-width: 575px) 
+  {
+    height: 150px;
+    min-width: 95px;
+    width: 120px;
+    border: 1px solid #9DBF21;
+    border-radius: 20px;
+    background-color: none;
+    transition: transform .25s;
+
+    .card
+    {
+        height: 100%;
+        width: auto;
+        position: relative;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        padding: 0px;
+        
+
+        .image
+        {
+           height: 35px;
+        }
+        
+
+        
+
+        span 
+        {
+            
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+
+  }
+}}

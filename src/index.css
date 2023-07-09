@@ -57,7 +57,7 @@ opacity: 1;
     font-size: 30px;
     /* color: white; */
       color: rgb(69, 69, 100);
-    font-weight: 600;
+    font-weight: 400;
    
   }
 
@@ -65,42 +65,10 @@ opacity: 1;
   {
     /* color: white; */
       color: rgb(69, 69, 100);
-    font-size: 50px;
+    font-size: 20px;
   }
 
-  @media (max-width: 575px) 
-  {
-    /* Add your styles here */
-    .home{
-      flex: 0.9;
-      width: 100%;
-      height: 100vh;
-       display: flex;
-       margin-left: 10px;
-       
-    }
-
-    .greeting {
-      font-size: 30px;
-      color: white;
-      font-weight: 600;
-    
-      
-    }
-    
-    .home .mission {
-     color: white;
-     font-size: 16px;
-   }
-
-     .home .home-content {
-       display: flex;
-       margin: 0;
-       padding: 0;
-       flex-direction: column;
-       align-items: left;
-     }
-  }
+  
   
 
 
@@ -267,46 +235,11 @@ flex: 0.7;
   font-size: 18px;
   /* color: rgb(66, 66, 225) ; */
   color: black;
-  font-weight: 600;
+  font-weight: 300;
+  
 }
 
-@media (max-width: 575px) {
 
-  /* Add your styles here */
-  .about {
-    flex: 0.9;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about .container  {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-    margin: 0 5px 0 0;
-    /* font-size: 12px; */
-    
-  }
-    .about .container p {
-      font-size: 15px;
-      color: rgb(69, 69, 100);
-      /* margin-top: 10px; */
-      text-align: left;
-      word-spacing: 2px;
-    }
-}
 
 /* Portfolio Page */
 
@@ -341,4 +274,135 @@ flex: 0.7;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+/* Media Query for different screeen sizes */
+
+
+/* Query for Mobile screens */
+@media (max-width: 575px) 
+  {
+
+    /* Styling for the Home Section */
+    .home{
+      flex: 0.9;
+      width: 100%;
+      height: 100vh;
+       display: flex;
+       margin-left: 10px;
+       
+    }
+
+    .greeting {
+      font-size: 20px;
+      color: black;
+      font-weight: 400;
+    
+      
+    }
+    .welcome{
+      display: none;
+    }
+    .my-name{
+      color: rgb(33, 78, 201);
+      font-size: 30px;
+    }
+    .my-role{
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 0;
+    }
+    
+    .home .mission {
+     color: white;
+     font-size: 16px;
+     display: none;
+   }
+
+   .home-content {
+       display: flex;
+       margin: 0;
+       padding: 0;
+       flex-direction: column;
+       align-items: left; 
+       
+     }
+
+    /* Styling for the about section */
+
+    
+      .about {
+        flex: 0.85;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .about .container  {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+        /* margin: 0 5px 0 0; */
+        /* font-size: 12px; */
+        
+      }
+        .about .container p {
+          font-size: 14px;
+          color: rgb(69, 69, 100);
+          /* margin-top: 10px; */
+          text-align: auto;
+          /* word-spacing: 2px; */
+        }
+
+
+        /*Styling for Stacks */
+
+.stacks
+{
+flex: 0.9;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  animation: transitionIn 2.5s;
+  display: flex;justify-content: center;
+ 
+ 
+ 
+}
+
+.stacks .container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+    }
+
+
+  
+
+
+/* Styles for screens larger than 1024px */
+@media (min-width: 1025px) {
+  .my-role{
+    display: none;
+  }
+  .my-name{
+    display: none;
+  }
 }
