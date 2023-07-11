@@ -3,38 +3,31 @@
     flex: 0.2;
     // align-items: center;
     margin-top: 40px;
-    justify-content: center; 
+    
     display: flex;   
     height: 90vh;
     justify-content: center;
-    border: 1px solid #bdbd2b;
+    border: none;
     border-radius: 12px;
     position: relative;
-    background-color: #ddb01e;
+    background-color: transparent;
     align-items: center;
     
     // padding: ;
 
-    /* Styles for screens larger than 1200px */
-        @media (min-width: 1200px) {
-            /* Add your styles here */
-        }
     
         /* Styles for screens between 992px and 1199px */
-        @media (min-width: 992px) and (max-width: 1199px) {
-            /* Add your styles here */
-        }
+@media (min-width: 992px) and (max-width: 1199px) {
+   max-height: 70vh;
+  }
+  
+  /* Styles for screens between 768px and 991px */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Add your styles here */
+    max-height: 70vh;
+    display: none;
     
-        /* Styles for screens between 768px and 991px */
-        @media (min-width: 768px) and (max-width: 991px) {
-            /* Add your styles here */
-        }
-    
-        /* Styles for screens between 576px and 767px */
-        @media (min-width: 576px) and (max-width: 767px) {
-            /* Add your styles here */
-            
-        }
+  }
     
         /* Styles for screens smaller than 576px */
         @media (max-width: 575px) {
@@ -42,6 +35,36 @@
             display: none;
             margin: 0;
         }
+
+
+        /* Styles for screens larger than 1200px */
+@media (min-width: 1200px) {
+      
+  }
+  
+  /* Styles for screens between 992px and 1199px */
+  @media (min-width: 992px) and (max-width: 1199px) {
+                           
+    display: none;
+  }
+  
+  /* Styles for screens between 768px and 991px */
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+    display: none;
+  }
+  
+  /* Styles for screens between 576px and 767px */
+  @media (min-width: 576px) and (max-width: 767px) {
+    
+    display: none;
+  }
+  
+  /* Styles for screens smaller than 576px */
+  @media (max-width: 575px) {
+    /* Add your styles here */
+    display: none;
+  }
     .personalCard-wrapper 
     {
 
@@ -54,6 +77,21 @@
         justify-content: center;
         flex-direction: column;
 
+
+        /* Styles for screens between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Add your styles here */
+    margin: 10px;
+  }
+  
+  /* Styles for screens between 768px and 991px */
+  @media (min-width: 768px) and  {
+    /* Add your styles here */
+    margin: 10px;
+    display: none;
+    
+  }
+
         
         
 
@@ -63,7 +101,7 @@
            
             gap: none;
             line-height: 5px;
-            .my-name
+            .my-name-card
             {
                 font-size: 1.7rem;
                 font-family: 'Bebas Neue', sans-serif;
@@ -71,6 +109,22 @@
                 color: black;
                 letter-spacing: 3px;
                 word-spacing: 5px;
+
+                @media (min-width: 768px) and (max-width: 991px) {
+                    /* Add your styles here */
+                    letter-spacing: none;
+                    word-spacing: none;
+                    font-size: 1rem;
+                    
+                  }
+                    
+                        /* Styles for screens smaller than 576px */
+                        @media (max-width: 575px) {
+                            /* Add your styles here */
+                            letter-spacing: none;
+                    word-spacing: none;
+                    font-size: 1rem;
+                        }
                 
             }
 
@@ -81,6 +135,29 @@
                 letter-spacing: 3px;
                     word-spacing: 5px;
                 // font-family: 'Bebas Neue', sans-serif;
+
+                @media (min-width: 768px) and (max-width: 991px) {
+                    /* Add your styles here */
+                    
+                    font-size: 11px;
+                    letter-spacing: 0;
+                    word-spacing: 0;
+                    gap: 0;
+                    line-height: none;
+                    margin-top: -3px;
+                    
+                  }
+                    
+                        /* Styles for screens smaller than 576px */
+                        @media (max-width: 575px) {
+                            /* Add your styles here */
+                            font-size: 10px;
+                            letter-spacing: 0;
+                    word-spacing: 0;
+                    gap: 0;
+                    line-height: none;
+                    margin-top: -3px;
+                        }
             }
 
         }
@@ -115,6 +192,18 @@
         .btn-color{
             background-color: rgb(66, 66, 225);
             color: white;
+
+            /* Styles for screens between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Add your styles here */
+    font-size: 12px;
+  }
+  
+  /* Styles for screens between 768px and 991px */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Add your styles here */
+    font-size: 12px;
+  }
         }
     
 

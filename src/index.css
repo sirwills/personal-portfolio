@@ -9,7 +9,11 @@
   padding: 0;
   display: flex;
   justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 
 
@@ -182,29 +186,6 @@ opacity: 1;
   width: 400px;
 }
 
-@media (max-width: 575px) {
-  
-  .contactPage {
-    flex: 0.9;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-       
-  }
-
-  .contactPage .contact-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-             
-  }
-  
-}
-
 
 /* About Component */
 
@@ -249,6 +230,9 @@ flex: 0.7;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100vh;
+
 }
 
 
@@ -391,7 +375,105 @@ flex: 0.9;
   align-items: center;
   width: 300px;
 }
-    }
+
+/* styling for Portfolio Tab */
+.portfolio
+{
+  flex: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+/* Styling for Contact */
+
+.contactPage
+{
+  flex: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.contactPage .contact-content
+{
+  /* position: relative; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+  margin: auto;
+}
+
+.contact-form-heading
+{
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  
+}
+
+.contactPage .contact-content .contact-form
+{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: fit-content;
+  align-items: center;
+}
+.contactPage .contact-content .contact-form label{
+  color: black;
+  font-weight: 600;
+}
+
+.contactPage .contact-content .contact-form input
+{
+  width: 280px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  
+}
+
+
+
+.contactPage .contact-content  .details-field
+{
+  display: flex;
+  flex-direction: column;
+  /* margin: 3px 0; */
+  color: white;
+}
+
+.contactPage .contact-content .details-field .message-box
+{
+  border-radius: 12px;
+  width: 280px;
+  
+}
+.contactPage .contact-content  .message-btn
+{
+  padding: 10px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  background-color: rgb(66, 66, 225);
+  width: 280px;
+}
+ }
 
 
   
@@ -399,6 +481,29 @@ flex: 0.9;
 
 /* Styles for screens larger than 1024px */
 @media (min-width: 1025px) {
+  .my-role{
+    display: none;
+  }
+  .my-name{
+    display: none;
+  }
+}
+
+/* Styles for screens between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Add your styles here */
+
+  .my-role{
+    display: none;
+  }
+  .my-name{
+    display: none;
+  }
+}
+
+/* Styles for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Add your styles here */
   .my-role{
     display: none;
   }

@@ -28,9 +28,10 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <a href="/contact">
+          <Link to="/contact">
               <i class="fa-regular fa-message"></i>
-            </a>
+            </Link>
+            
           </li>
         </ul>
       </div>

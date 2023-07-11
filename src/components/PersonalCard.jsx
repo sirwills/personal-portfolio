@@ -11,7 +11,7 @@ const PersonalCard = () => {
     <div className="personal-card">
       <div className="personalCard-wrapper">
         <div className="name-workTitle">
-          <p className="my-name">Wills Odali</p>
+          <p className="my-name-card">Wills Odali</p>
           <p className="workTitle">Fullstack Developer</p>
         </div>
         <img src={image} alt="" />
