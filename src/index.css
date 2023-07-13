@@ -243,6 +243,11 @@ flex: 0.7;
 
 }
 
+.project-card-link
+{
+  text-decoration: none;
+}
+
 .app-description
 {
   font-size: 12px;

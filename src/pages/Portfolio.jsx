@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return <div className="portfolio d-flex justify-content-around">
-    <Link to ='https://weather-deck.vercel.app/' target="_blank">
+    <Link className="project-card-link" to ='https://weather-deck.vercel.app/' target="_blank">
     <div class="card card-styling shadow" >
       <img src="./weather-app.png" class="card-img-top card-image" alt="..."/>
       <div class="card-body">
