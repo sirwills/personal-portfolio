@@ -22,7 +22,7 @@ const Stacks = () => {
 
       <StackCard
           image={"./bootstrap.png"}
-          title={"Bootsrap"}
+          title={"Bootstrap"}
           
         />{" "}
 
