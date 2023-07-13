@@ -21,7 +21,7 @@ const Stacks = () => {
         title={"CSS"}  />
 
       <StackCard
-          image={"./bootstrap.svg.png"}
+          image={"./bootstrap.png"}
           title={"Bootsrap"}
           
         />{" "}
