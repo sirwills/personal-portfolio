@@ -36,35 +36,6 @@
             margin: 0;
         }
 
-
-        /* Styles for screens larger than 1200px */
-@media (min-width: 1200px) {
-      
-  }
-  
-  /* Styles for screens between 992px and 1199px */
-  @media (min-width: 992px) and (max-width: 1199px) {
-                           
-    display: none;
-  }
-  
-  /* Styles for screens between 768px and 991px */
-  @media (min-width: 768px) and (max-width: 991px) {
-    
-    display: none;
-  }
-  
-  /* Styles for screens between 576px and 767px */
-  @media (min-width: 576px) and (max-width: 767px) {
-    
-    display: none;
-  }
-  
-  /* Styles for screens smaller than 576px */
-  @media (max-width: 575px) {
-    /* Add your styles here */
-    display: none;
-  }
     .personalCard-wrapper 
     {
 
@@ -78,22 +49,7 @@
         flex-direction: column;
 
 
-        /* Styles for screens between 992px and 1199px */
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Add your styles here */
-    margin: 10px;
-  }
-  
-  /* Styles for screens between 768px and 991px */
-  @media (min-width: 768px){
-    /* Add your styles here */
-    margin: 10px;
-    display: none;
-    
-  }
 
-        
-        
 
         .name-workTitle
 
@@ -132,7 +88,7 @@
             {
                 font-size: 12px;
                 font-weight: bold;
-                letter-spacing: 3px;
+                // letter-spacing: 3px;
                     word-spacing: 5px;
                 // font-family: 'Bebas Neue', sans-serif;
 
